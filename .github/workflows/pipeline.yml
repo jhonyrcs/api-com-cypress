@@ -21,5 +21,6 @@ jobs:
               with:
                 record: true
                 group: QAzando - API Pipeline
+                browser: chrome
               env:
                 CYPRESS_RECORD_KEY: a5dec7d9-9696-4664-ad92-47ebd1bb3c91
