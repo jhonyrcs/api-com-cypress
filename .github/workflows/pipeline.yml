@@ -1,5 +1,13 @@
 name: API Cypress Tests
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - feature/create-pipeline
+  pull_request:
+    branches:
+      - main
+      - feature/create-pipeline
 jobs:
     cypress-run:
         runs-on: ubuntu-latest
@@ -12,5 +20,6 @@ jobs:
               uses: cypress-io/github-action@v6
               with:
                 record: true
+                group: QAzando - API Pipeline
               env:
                 CYPRESS_RECORD_KEY: a5dec7d9-9696-4664-ad92-47ebd1bb3c91
