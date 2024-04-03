@@ -38,7 +38,7 @@ describe('Atualizar objeto', () => {
         }).then((response) => {
             expect(response.status).to.be.equal(200);
             expect(response.body).to.have.property('id', objectId); // Verifica se o ID do objeto é o mesmo
-            expect(response.body).to.have.property('name', 'New Name'); // Verifica se o nome foi atualizado corretamente
+            expect(response.body).to.have.property('name', 'New Nam'); // Verifica se o nome foi atualizado corretamente
         })
     })
 })
