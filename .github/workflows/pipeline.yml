@@ -2,12 +2,12 @@ name: API Cypress Tests
 on:
   push:
     branches:
+      - master
       - main
-      - feature/create-pipeline
   pull_request:
     branches:
+      - master
       - main
-      - feature/create-pipeline
 jobs:
     cypress-run:
         runs-on: ubuntu-latest
