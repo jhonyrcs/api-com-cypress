@@ -41,5 +41,3 @@ Contribuições são bem-vindas!
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
-
